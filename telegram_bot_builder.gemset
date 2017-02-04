@@ -1,0 +1,13 @@
+Gem::Specification.new do |s|
+  s.name        = 'telegram_bot_builder'
+  s.version     = '1.0.0'
+  s.date        = '2017-01-15'
+  s.summary     = "Telegram Bot Builder"
+  s.description = "telegram bot sdk"
+  s.authors     = ["Artur Khidirnabiev"]
+  s.email       = 'artur.khidirnabiev@gmail.com'
+  s.files       = ["lib/telegram_bot_builder.rb", "lib/telegram_bot_builder/bot_api.rb", "lib/telegram_bot_builder/bot_message.rb", "lib/telegram_bot_builder/bot_update.rb", "lib/telegram_bot_builder/bot_updates.rb", "lib/telegram_bot_builder/bot_user.rb", "lib/telegram_bot_builder/bot_webhook.rb"]
+  s.homepage    =
+    'http://rubygems.org/gems/telegram_bot_builder'
+  s.license       = 'MIT'
+end
